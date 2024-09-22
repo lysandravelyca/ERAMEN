@@ -1,0 +1,88 @@
+/* FOOTER START */
+
+.footer{
+    
+    border-top: 3px solid #dfb3a0;
+    background-color:#f6d6c9;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    gap: 32px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+  }
+  
+  /* judul */
+
+  .footer .box-container .box h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #783b31;
+    padding: 15px 0;
+  }
+
+  /* deskripsi judul */
+  
+  .footer .box-container .box p{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #2d2d2d;
+    padding: 10px 0;
+  }
+
+/* FOOTER END */
+
+@media only screen and (max-width: 820px){
+
+  .footer .box-container .box h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #783b31;
+    padding: 15px 0;
+  }
+ 
+  .footer .box-container .box p{
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 1.8;
+      color: #2d2d2d;
+      padding: 10px 0;
+    } 
+}
+
+@media only screen and (max-width: 440px){
+
+  .footer .box-container .box p{
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 1.8;
+    color: #2d2d2d;
+    padding: 10px 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+  .footer .box-container .box h3{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #783b31;
+    padding: 15px 0;
+  }
+ 
+  .footer .box-container .box p{
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 1.8;
+      color: #2d2d2d;
+      padding: 10px 0;
+    } 
+}

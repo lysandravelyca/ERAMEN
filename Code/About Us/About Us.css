@@ -1,0 +1,283 @@
+body {
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* about us start */
+
+.container{
+	background: url("/bgg.png");
+	height: 530px;
+}
+
+.textContainer h2 {
+	color: white;
+	padding-top: 10%;
+	padding-left: 15%;
+	padding-bottom: 4%;
+	font-size: xx-large;
+} 
+
+.textContainer p{
+	color: white;
+	font-size: 20px;
+	margin-left: 8%;
+	margin-right: 49%;
+	margin-top: 1%;
+	text-align: center;
+
+}
+
+.boxxx{
+	background-color: #FAE8E0;
+	padding-top: 5%;
+	padding-bottom: 1%;
+}
+
+/* about us end */
+
+
+/* history start */
+
+.container1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 5%;
+	background-color: #FAE8E0;
+}
+
+.container1 img{
+	padding: 5%;
+	width: 45% ;
+}
+
+.container1 h2{
+	margin-bottom: 2.5%;
+	color: black;
+}
+
+.container1 p{
+	font-size: 20px;
+	margin-right: 5%;
+}
+
+/* history end */
+
+/* vision start */
+
+.container2{
+	background: url("/gambar/About Us/bg\ vm.png");
+	height: 280px;
+	padding-top: 5%;
+}
+
+.textContainer2 h2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+.textContainer2 p{
+	text-align: center;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	padding: 0px 120px;
+}
+/* vision end */
+
+/* mission start */
+
+
+.container3{
+	background: url("/gambar/About Us/bg\ vm.png");
+	height: 280px;
+	padding-top: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.textContainer3 h2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+.textContainer3 p{
+	text-align: center;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	padding: 0px 120px;
+}
+
+/* mission end */
+
+@media only screen and (max-width: 820px){
+   
+	.container{
+		background: url("/bggg.png");
+		height: 345px;
+	}
+	.textContainer h2 {
+		color: white;
+		padding-top: 8%;
+		padding-left: 12%;
+		padding-bottom: 4%;
+		font-size: x-large;
+		align-items: center;
+	} 
+	
+	.textContainer p{
+		color: white;
+		font-size: 17px;
+		margin-left: 5%;
+		margin-right: 45%;
+		margin-top: 1%;
+		text-align: center;
+	
+	}	
+	
+	.textContainer2 h2{
+		margin-bottom: 5%;
+		margin-top: 1%;
+	}
+	.textContainer2 p{
+		text-align: center;
+		font-size: 18px;
+	}
+	.textContainer3 h2{
+		margin-bottom: 5%;
+		margin-top: 1%;
+	}
+	.textContainer3 p{
+		text-align: center;
+		font-size: 18px;
+	}
+	}
+	
+@media only screen and (max-width: 414px){
+   
+.container{
+	background: url("/bgg.png");
+	height: 530px;
+}
+
+.textContainer h2 {
+	color: white;
+	padding-top: 35%;
+	padding-left: 15%;
+	padding-bottom: 4%;
+	font-size: x-large;
+	align-items: center;
+} 
+
+.textContainer p{
+	color: white;
+	font-size: 18px;
+	margin-left: 8%;
+	margin-right: 4%;
+	margin-top: 3%;
+	text-align: center;
+
+}	
+
+.textContainer2 h2{
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.textContainer2 p{
+	text-align: center;
+	font-size: 13px;
+	padding: 0px 30px;
+}
+.textContainer3 h2{
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.textContainer3 p{
+	text-align: center;
+	font-size: 13px;
+	padding: 0px 30px;
+}
+
+.container1{
+
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 5%;
+	background-color: #FAE8E0;
+}
+
+.container1 img{
+	margin-left: 5%;
+	width: 90% ;
+}
+
+.container1 h2{
+	margin-bottom: 3%;
+	text-align: center;
+	color: black;
+}
+
+.container1 p{
+	font-size: 15px;
+	margin-right: 0%;
+	padding: 0px 40px;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+}
+
+@media only screen and (max-width: 390px){
+   
+
+	
+	.textContainer h2 {
+		color: white;
+		padding-top: 35%;
+		padding-left: 15%;
+		padding-bottom: 4%;
+		font-size: x-large;
+		align-items: center;
+	} 
+	
+	.textContainer p{
+		color: white;
+		font-size: 18px;
+		margin-left: 8%;
+		margin-right: 4%;
+		margin-top: 3%;
+		text-align: center;
+	
+	}	
+	
+	.textContainer2 h2{
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	.textContainer2 p{
+		text-align: center;
+		font-size: 14px;
+		padding: 0px 30px;
+	}
+	.textContainer3 h2{
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	.textContainer3 p{
+		text-align: center;
+		font-size: 14px;
+		padding: 0px 30px;
+	}
+	}
+
+
+
